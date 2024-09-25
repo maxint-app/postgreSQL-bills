@@ -2,7 +2,7 @@
 Create a PostgreSQL view that aggregates bank transaction data to identify recurring bill payments.
 
 ### Given
-A CSV file containing bank transaction data with columns: id, createdAt, externalId, type, amount, date, description, category, counterParty, recurring, tag, accountExternalId, and location.
+A [CSV file](https://github.com/maxint-app/postgreSQL-bills/blob/main/Maxint-accounts-9999-demo.csv) containing bank transaction data with columns: id, createdAt, externalId, type, amount, date, description, category, counterParty, recurring, tag, accountExternalId, and location.
 
 ### Goal
 Generate a view with the following columns:
